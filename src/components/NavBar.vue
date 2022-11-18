@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <img class="logo" :src="'/images/logo.png'" />
+    <img class="logo" :src="'/images/logo.png'" alt="Cowabunga Comics & Collectibles" srcset="/images/logo.png" />
     <div class="navWrapper">
       <RouterLink class="home" to="/">Home</RouterLink>
       <RouterLink class="login" to="/login">LoginPage</RouterLink>
