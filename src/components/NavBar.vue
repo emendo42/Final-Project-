@@ -1,10 +1,26 @@
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/login">LoginPage</RouterLink>
-    <RouterLink to="/aboutus">AboutUs</RouterLink>
-    <RouterLink to="/reviews">Reviews</RouterLink>
+    <img class="logo" :src="'/images/logo.jpg'" />
+    <div class="navWrapper">
+      <RouterLink class="home" to="/">Home</RouterLink>
+      <RouterLink class="login" to="/login">LoginPage</RouterLink>
+      <RouterLink class="aboutus" to="/aboutus">AboutUs</RouterLink>
+      <RouterLink class="reviews" to="/reviews">Reviews</RouterLink>
+    </div>
   </nav>
 </template>
 
-<style scoped lang="postcss"></style>
+<style scoped lang="postcss">
+nav {
+  @apply flex h-4/5  flex-col bg-blue-900 text-slate-300;
+  .logo {
+    @apply mx-auto flex  w-6/12 items-center bg-slate-50;
+  }
+  .navWrapper {
+    @apply container mx-auto flex w-full items-center justify-evenly pt-1;
+    .home {
+      @apply bg-slate-500 px-6;
+    }
+  }
+}
+</style>
