@@ -17,7 +17,7 @@
   @apply container mx-auto flex flex-col items-center bg-red-200 py-9;
 }
 .cardImage {
-  @apply flex flex-col w-7/12 items-center bg-white ;
+  @apply flex w-7/12 flex-col items-center bg-white;
 }
 .items {
   @apply flex flex-col items-center text-yellow-700;
