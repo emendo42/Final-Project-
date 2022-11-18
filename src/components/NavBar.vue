@@ -22,7 +22,7 @@ nav {
     @apply mx-auto flex w-6/12 items-center bg-transparent;
   }
   .navWrapper {
-    @apply container mx-auto flex w-full items-center justify-evenly bg-red-700 py-1;
+    @apply container mx-auto flex w-screen items-center justify-evenly bg-red-700 py-1;
     .home {
       @apply bg-slate-500 px-1.5 hover:bg-white hover:text-black;
     }
