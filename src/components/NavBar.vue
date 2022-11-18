@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <img class="logo" :src="'/images/logo.jpg'" />
+    <img class="logo" :src="'/images/logo.png'" />
     <div class="navWrapper">
       <RouterLink class="home" to="/">Home</RouterLink>
       <RouterLink class="login" to="/login">LoginPage</RouterLink>
@@ -12,9 +12,9 @@
 
 <style scoped lang="postcss">
 nav {
-  @apply flex h-4/5  flex-col bg-blue-900 text-slate-300;
+  @apply flex h-4/5  flex-col bg-blue-500 text-slate-300;
   .logo {
-    @apply mx-auto flex  w-6/12 items-center bg-slate-50;
+    @apply mx-auto flex w-6/12 items-center bg-transparent;
   }
   .navWrapper {
     @apply container mx-auto flex w-full items-center justify-evenly pt-1;
