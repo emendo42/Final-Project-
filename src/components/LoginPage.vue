@@ -15,15 +15,15 @@ const password = ref('')
 
 <style scoped lang="postcss">
 .login-form {
-  @apply mx-auto mt-44 flex max-w-md flex-col gap-4 rounded-md bg-white p-20 shadow-lg ring-4 ring-red-600;
+  @apply mx-auto mt-12 flex max-w-fit flex-col gap-4 rounded-md bg-white p-9 shadow-lg ring-4 ring-red-600;
   & input {
-    @apply rounded-md bg-green-200 px-4 py-2 text-xl ring-2 ring-purple-900;
+    @apply rounded-md bg-green-200 px-4 py-2 text-xl ring-2 ring-black;
   }
   & .user {
-    @apply rounded-md bg-green-200 px-4 py-2 text-xl ring-2 ring-orange-600;
+    @apply rounded-md bg-green-200 px-4 py-2 text-xl ring-2 ring-black;
   }
   & button {
-    @apply rounded-md bg-green-600 p-5 ring-2 ring-blue-600;
+    @apply rounded-md bg-green-600 p-5 ring-2 ring-black;
   }
 }
 </style>
