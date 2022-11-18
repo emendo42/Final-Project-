@@ -17,7 +17,7 @@
 
 <style scoped lang="postcss">
 nav {
-  @apply flex h-4/5  flex-col bg-blue-500 text-slate-300;
+  @apply flex h-4/5  flex-col bg-white text-slate-300;
   .logo {
     @apply mx-auto flex w-6/12 items-center bg-transparent;
   }
