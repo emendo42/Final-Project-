@@ -7,24 +7,23 @@ import MerchCards from '@/components/MerchCards.vue'
   <h2 class="adress">We are located at 1500 s 16th st, McAllen, in the great state of Texas</h2>
   <h3 class="hours">Come Visit us from 10am-10pm, virtually all day to fuel your addiction in the following:</h3>
   <h4 class="addiction-items">
-    🔴Comics(duhh)
+    🔴Comics..............(duhh)
     <br />
-    🔴Funkos
+    🔴Funkos...............(boxes as perfect as you can imagine)
     <br />
-    🔴Posters
+    🔴Posters...............(rolled up neatly for you)
     <br />
-    🔴Anime Merch
+    🔴Anime Merch...(you'll need it for vacations)
     <br />
-    🔴Loungeflys
+    🔴Loungeflys........(you'll look fancy)
     <br />
-    🔴Stickers
+    🔴Stickers...............(they really stick on anyone, I mean anything)
     <br />
-    🔴Lanyards
+    🔴Lanyards.............(you need something for you keys or id)
     <br />
-    🔴Notebooks
+    🔴Notebooks.........(wanna write an angry letter, we got the notebook for you)
     <br />
-    ....and more surprises in store👀
-
+    ...........and more surprises in store👀
   </h4>
 
   <div class="Merch">
