@@ -1,20 +1,20 @@
 <template>
-  <h1>&nbsp</h1>
+  <h1>&nbsp;</h1>
   <h2 class="address">We are located at 1500 s 16th st, McAllen, in the great state of Texas</h2>
   <h3 class="hours">
-    🕙Monday &nbsp &nbsp &nbsp &nbsp 10am👉10pm
+    🕙Monday &nbsp; &nbsp; &nbsp; &nbsp; 10am👉10pm
     <br />
-    🕙Tuesday &nbsp &nbsp &nbsp &nbsp 10am👉10pm
+    🕙Tuesday &nbsp; &nbsp; &nbsp; &nbsp; 10am👉10pm
     <br />
-    🕙Wednesday &nbsp 10am👉10pm
+    🕙Wednesday &nbsp; 10am👉10pm
     <br />
-    🕙Thrusday &nbsp &nbsp &nbsp 10am👉10pm
+    🕙Thrusday &nbsp; &nbsp; &nbsp; 10am👉10pm
     <br />
-    🕙Friday &nbsp &nbsp &nbsp &nbsp &nbsp 10am👉10pm
+    🕙Friday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10am👉10pm
     <br />
-    🕙Saturday &nbsp &nbsp &nbsp 10am👉10pm
+    🕙Saturday &nbsp; &nbsp; &nbsp; 10am👉10pm
     <br />
-    🕙Sunday &nbsp &nbsp &nbsp &nbsp 1pm👉 8pm
+    🕙Sunday &nbsp; &nbsp; &nbsp; &nbsp; 1pm👉 8pm
   </h3>
   <h4 class="visit">Come Visit us, virtually all day to fuel your addiction in the following:</h4>
   <h5 class="addictionItems">
