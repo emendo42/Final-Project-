@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <!-- placeholder for item pictures-->
 <!-- <template>
