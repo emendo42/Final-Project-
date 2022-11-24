@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <!-- placeholder for item pictures-->
 <!-- <template>
@@ -16,7 +18,7 @@
 <template>
   <div v-for="n in 31" :key="n" class="card">
     <div class-="cardImage">
-      <img :src="`../../src/assets/images/${n}.jpg`" />
+      <img :src="`./src/assets/images/${n}.jpg`" />
     </div>
   </div>
 </template>
