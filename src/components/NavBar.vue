@@ -2,9 +2,9 @@
   <nav>
     <img
       class="logo"
-      :src="'/public/pictures/logo.png'"
+      :src="'/src/assets/pictures/logo.png'"
       alt="Cowabunga Comics & Collectibles"
-      srcset="/public/pictures/logo.png"
+      srcset="/src/assets/pictures/logo.png"
     />
     <div class="navWrapper">
       <RouterLink class="home" to="/">Home</RouterLink>
