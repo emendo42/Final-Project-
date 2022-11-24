@@ -1,6 +1,7 @@
 <script setup></script>
 
-<template>
+<!-- placeholder for item pictures-->
+<!-- <template>
   <div class="card" @click="selectCard">
     <div class="cardImage">
       <img :src="'/pictures/logo.png'" alt="item picure" srcset="/pictures/logo.png" />
@@ -10,11 +11,19 @@
       <p class="item-cost">Item Cost</p>
     </div>
   </div>
+</template> -->
+
+<template>
+  <div v-for="n in 31" :key="n" class="card">
+    <div class-="cardImage">
+      <img :src="`/public/img/${n}.jpg`" />
+    </div>
+  </div>
 </template>
 
 <style scoped lang="postcss">
 .card {
-  @apply container mx-auto flex flex-col items-center bg-red-200 py-9;
+  @apply container mx-auto flex flex-col items-center  py-9 transition-transform  duration-100 hover:scale-110 hover:border-2 hover:border-slate-900 hover:bg-red-300 hover:shadow-2xl;
 }
 .cardImage {
   @apply flex w-7/12 flex-col items-center bg-white;
