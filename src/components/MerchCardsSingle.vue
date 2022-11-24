@@ -16,7 +16,7 @@
 <template>
   <div v-for="n in 31" :key="n" class="card">
     <div class-="cardImage">
-      <img :src="`./public/img/${n}.jpg`" />
+      <img :src="`./src/assets/img/${n}.jpg`" />
     </div>
   </div>
 </template>
