@@ -1,4 +1,10 @@
-<script setup></script>
+<script setup>
+const imageURL = (name) => {
+  const url = new URL(`/src/assets/images/${name}.png`, import.meta.url)
+  // console.log(url)
+  return url.href
+}
+</script>
 
 <!-- placeholder for item pictures-->
 <!-- <template>
@@ -16,7 +22,7 @@
 <template>
   <div v-for="n in 31" :key="n" class="card">
     <div class-="cardImage">
-      <img :src="`./src/assets/images/${n}.png`" alt="item pictures" />
+      <img :src="imageURL(n)" alt="item pictures" />
     </div>
   </div>
 </template>
