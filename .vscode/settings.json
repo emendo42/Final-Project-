@@ -34,5 +34,6 @@
   "editor.quickSuggestions": {
     "comments": "on",
     "strings": "on"
-  }
+  },
+  "cSpell.words": ["Cowabunga", "Fukos"]
 }
