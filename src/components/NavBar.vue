@@ -1,3 +1,10 @@
+<script setup>
+import { ref } from 'vue'
+import { useAuth } from '@/components/composables/useAuth'
+
+const { isAuthenticated, logout, user } = useAuth()
+</script>
+
 <template>
   <nav>
     <img
@@ -7,10 +14,15 @@
       srcset="/src/assets/pictures/logo.png"
     />
     <div class="navWrapper">
-      <RouterLink class="home" to="/">Home</RouterLink>
-      <RouterLink class="login" to="/login">LoginPage</RouterLink>
+      <RouterLink :to="{ name: 'Home' }" class="home">Home</RouterLink>
       <RouterLink class="aboutus" to="/aboutus">AboutUs</RouterLink>
-      <RouterLink class="reviews" to="/reviews">Reviews</RouterLink>
+      <div v-if="isAuthenticated" class="auth">
+        <RouterLink :to="{ name: 'Reviews' }" href="#" class="reviews">Reviews</RouterLink>
+        <button class="logout" @click="logout">🥱 Logout Dude</button>
+      </div>
+      <div v-else>
+        <RouterLink :to="{ name: 'LoginPage' }" href="#" class="login">LoginPage</RouterLink>
+      </div>
     </div>
   </nav>
 </template>
@@ -34,6 +46,12 @@ nav {
     }
     .reviews {
       @apply bg-slate-400 px-1.5 font-mono font-bold text-black hover:bg-white hover:text-black;
+    }
+    .auth {
+      @apply -mx-20;
+    }
+    .logout {
+      @apply bg-red-700   font-mono font-bold text-black  hover:text-white ;
     }
   }
 }
