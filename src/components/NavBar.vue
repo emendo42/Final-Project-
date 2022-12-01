@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { useAuth } from '@/components/composables/useAuth'
 
-const { isAuthenticated, logout, user } = useAuth()
+const { isAuthenticated, logout } = useAuth()
 </script>
 
 <template>
@@ -51,7 +51,7 @@ nav {
       @apply -mx-20;
     }
     .logout {
-      @apply bg-red-700   font-mono font-bold text-black  hover:text-white ;
+      @apply bg-red-700   font-mono font-bold text-black  hover:text-white;
     }
   }
 }
